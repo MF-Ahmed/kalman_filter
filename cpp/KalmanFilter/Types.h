@@ -11,7 +11,7 @@
 
 namespace kf
 {
-    using float32_t = float;
+    using float32_t = float;  // the using keyword is analogous to the typedef in CPP-11
 
     template<size_t ROW, size_t COL>
     using Matrix = Eigen::Matrix<float32_t, ROW, COL>;
